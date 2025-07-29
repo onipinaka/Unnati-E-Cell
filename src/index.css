@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+@theme {
+    --color-theme-light-purple: #EAD9FA;
+    --color-theme-dark-purple: #620EC6;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
