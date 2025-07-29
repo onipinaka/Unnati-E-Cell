@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import '@fontsource/inter';
 import logo from "../assets/ecellLogo.svg";
 
 export default function Navbar() {
@@ -32,7 +31,7 @@ export default function Navbar() {
                 href={link.href}
                 title={link.label}
                 aria-label={link.label}
-                className="hover-underline text-sm  font-inter transition-transform duration-200"
+                className="hover-underline text-sm  transition-transform duration-200"
               >
                 {link.label}
               </a>
