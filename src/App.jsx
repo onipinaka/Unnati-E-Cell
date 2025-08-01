@@ -1,3 +1,4 @@
+import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 import Part3 from "./components/Part3"
 import Part4 from "./components/Part4"
@@ -11,6 +12,7 @@ const App = () => {
       <Navbar />
       <Part3/>
       <Part4/>
+      <Footer/>
       </div>
  
   )
