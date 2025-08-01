@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  color: white;
+}
+
+footer {
+  background-color: #0b0b0b;
+  padding: 40px 80px;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+
+
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-about {
+  max-width: 300px;
+}
+
+.footer-about h2 {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.footer-about p {
+  font-size: 14px;
+  color: #aaa;
+  line-height: 1.5;
+}
+
+.footer-links {
+  display: flex;
+  gap: 70px;
+  flex-wrap: wrap;
+}
+
+.footer-column h4 {
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  border-top: 1px solid #222;
+  margin-top: 30px;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #777;
+}
+
+.footer-bottom a,
+.footer-bottom a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.footer-bottom a:active {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 30px 20px;
+  }
+  .footer-links {
+    gap: 30px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+}
