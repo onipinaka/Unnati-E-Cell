@@ -1,3 +1,4 @@
+import Form from "./components/Form"
 import Navbar from "./components/Navbar"
 import Part3 from "./components/Part3"
 
@@ -9,6 +10,7 @@ const App = () => {
 
       <Navbar />
       <Part3/>
+      <Form />
       </div>
  
   )
