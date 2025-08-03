@@ -4,15 +4,15 @@ function Footer() {
   return (
    <div>
     <footer>
-        <div class="footer-container">
-    <div class="footer-about">
+        <div className="footer-container">
+    <div className="footer-about">
       <h2>E-Cell Unnati</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
 
-    <div class="footer-links">
-      <div class="footer-column">
+    <div className="footer-links">
+      <div className="footer-column">
         <h4>Products</h4>
         <ul>
           <li><a href="#">Live Chat</a></li>
@@ -22,7 +22,7 @@ function Footer() {
         </ul>
       </div>
 
-      <div class="footer-column">
+      <div className="footer-column">
         <h4>Resources</h4>
         <ul>
           <li><a href="#">fdsg</a></li>
@@ -32,7 +32,7 @@ function Footer() {
         </ul>
       </div>
 
-      <div class="footer-column">
+      <div className="footer-column">
         <h4>About</h4>
         <ul>
           <li><a href="#">rjb</a></li>
@@ -42,7 +42,7 @@ function Footer() {
         </ul>
       </div>
 
-      <div class="footer-column">
+      <div className="footer-column">
         <h4>Connect</h4>
         <ul>
           <li><a href="#">LinkedIn</a></li>
@@ -54,7 +54,7 @@ function Footer() {
     </div>
   </div>
 
-  <div class="footer-bottom">
+  <div className="footer-bottom">
     <p>© 2025 E-Cell Unnati. All rights reserved.</p>
     <div>
       <a href="#">Privacy & Terms</a> | 
@@ -67,4 +67,4 @@ function Footer() {
   )
 }
 
-export default Footer
+export default Footer ; 
