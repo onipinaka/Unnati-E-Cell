@@ -1,3 +1,4 @@
+import FaqSection from "./components/Faq"
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 import Part3 from "./components/Part3"
@@ -12,6 +13,7 @@ const App = () => {
       <Navbar />
       <Part3/>
       <Part4/>
+      <FaqSection/>
       <Footer/>
       </div>
  
