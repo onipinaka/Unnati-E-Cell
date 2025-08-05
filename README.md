@@ -1,12 +1,31 @@
-# React + Vite
+🚀 Unnati 5.0 – I&E Cell AIT |
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the official GitHub repository for **Unnati 5.0**, theexclusive event of the **Innovation & Entrepreneurship Cell, AIT Pune**. This website serves as the digital front for registrations, event updates, results, and information about Unnati 5.0  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 About the Event
 
-## Expanding the ESLint configuration
+**Unnati** is a national-level entrepreneurial challenge conducted under the guidance of the **Innovation & Entrepreneurship Cell (I&E Cell)** of **Army Institute of Technology, Pune**. The 5th edition — **Unnati 5.0** — aims to foster creativity, startup culture, and practical problem-solving among students through a series of challenges, workshops, and networking opportunities.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖥️ Website Features
+
+- 📝 Online team registration and idea submission
+- 📢 Real-time event updates and announcements
+- 🧑‍⚖️ Information about judges and mentors
+- 📸 Gallery and post-event wrap-ups
+- 📬 Contact and social media integration
+
+---
+
+## ⚙️ Tech Stack
+
+- **Frontend**: React.js, Tailwind CSS
+- **Routing**: React Router
+- **Hosting**: Vercel
+- **Forms**: Backend API (
+
+
+
