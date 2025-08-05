@@ -6,9 +6,13 @@ Welcome to the official GitHub repository for **Unnati 5.0**, theexclusive event
 
 ## 🌟 About the Event
 
-**Unnati** is a national-level entrepreneurial challenge conducted under the guidance of the **Innovation & Entrepreneurship Cell (I&E Cell)** of **Army Institute of Technology, Pune**. The 5th edition — **Unnati 5.0** — aims to foster creativity, startup culture, and practical problem-solving among students through a series of challenges, workshops, and networking opportunities.
+**UNNATI** is a fun and interactive **ice-breaker event** specially curated for **first-year students** of AIT Pune. Conducted annually by the **I&E Cell**, UNNATI aims to introduce students to entrepreneurship, creativity, and teamwork through a series of engaging and competitive tasks.
 
----
+The **5th edition** – **UNNATI 5.0** – brings you two dynamic and challenging rounds:
+
+- **💼 Brand Battle**: Test your branding and marketing instincts as your team builds and pitches a unique product identity.
+- **🧠 CEO in Trouble**: Step into the shoes of a CEO and solve real-time startup dilemmas with your decision-making and problem-solving skills.
+
 
 ## 🖥️ Website Features
 
