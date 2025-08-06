@@ -1,10 +1,11 @@
 
 .faq-container {
-  padding: 100px;
+  padding: 0px;
   padding-top: 50px;
   display: flex;
   gap: 3rem;
   flex-wrap: wrap;
+  margin: 0px;
 }
 
 .faq-left {
@@ -21,8 +22,8 @@
 }
 
 .heading {
-  font-size: 3rem;
-  max-width: 100vh;
+  font-size: clamp(1.5rem, 4vw, 3.3rem);
+  max-width: 70%;
   margin: 30px 0px 15px 0px;
   font-family: primary, Arial, Helvetica, sans-serif;
   color: black;
@@ -33,7 +34,7 @@
   max-width: 500px;
   color: black;
   font-family: primary, Arial, Helvetica, sans-serif;
-  font-size: 1.3rem;
+  font-size: clamp(0.8rem, 4vw, 1.3rem);
 }
 
 .contact {
@@ -46,14 +47,13 @@
   border: solid, 2px;
   border-color: rgb(222, 219, 219);
   box-shadow: 0px 0px 10px 3px rgb(222, 219, 219);
-  max-width: 500px;
-  min-width: 50vh;
+  min-width: 350px;
 }
 
 .inner-card1 {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 5vh;
   margin-left: 10px;
 }
 
@@ -86,12 +86,12 @@
   color: black;
   font-family: primary, Arial, Helvetica, sans-serif;
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: clamp(0.9rem, 4vw, 1.1rem);
 }
 .contact-text {
   color: grey;
   max-width: 350px;
-  font-size: 1rem;
+  font-size: clamp(0.7rem, 2vw, 1rem);
   font-family: primary, Arial, Helvetica, sans-serif;
 }
 
@@ -123,9 +123,9 @@ h3 {
 }
 
 .faq-right {
-  flex: 1.5;
+  flex: 1;
   padding-top: 70px;
-  max-width: 600px;
+  
 }
 
 .question-card {
@@ -148,7 +148,7 @@ h3 {
   color: black;
   font-family: primary, Arial, Helvetica, sans-serif;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: clamp(0.8rem, 2vw, 1.2rem);
 }
 
 .open-button {
@@ -167,11 +167,15 @@ h3 {
 
 .question:hover {
   color: #600fca;
+  .open-button {
+    color: #600fca;
+  }
 }
+
 
 .answer {
   width: 100%;
-  font-size: 0.9rem;
+  font-size: clamp(0.7rem, 4vw, 1rem);
   color: grey;
   max-height: 0;
   overflow: hidden;
@@ -185,14 +189,28 @@ h3 {
   opacity: 1;
 }
 
-@media (max-width: 930px) {
+@media (max-width: 700px) {
   .faq-container {
     flex-direction: column;
-    padding: 40px 20px;
+    width: 100%;
+  }
+  
+  .contact, .para, .heading {
+    min-width: 10vh;
+    width: 100%;
+  }
+
+  .question {
+    font-size: clamp(0.8rem, 4vw, 1.2rem);
+  }
+
+  .contact-text {
+    font-size: clamp(0.8rem, 3vw, 1rem);
   }
 
   .faq-left,
   .faq-right {
-    padding-top: 0px;
+    padding: 0px;
+    width: 100%;
   }
 }
